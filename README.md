@@ -312,20 +312,14 @@ Contoh mesin:
 ## Python
 
 ### Sebelum Penambahan Data
-
-> Tambahkan screenshot hasil program Python di sini.
-
-```text
-[ Screenshot Python - Data Awal ]
-```
+![pbefore](piton/dokumentasoy/pitonbefore.png)
 
 ### Sesudah Penambahan Data
 
 > Tambahkan screenshot hasil program Python setelah data kendaraan ditambahkan.
 
-```text
-[ Screenshot Python - Data Setelah Penambahan ]
-```
+![padd](piton/dokumentasoy/pitonadd.png)
+![pfinal](piton/dokumentasoy/pitonafter.png)
 
 ---
 
