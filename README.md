@@ -316,10 +316,9 @@ Contoh mesin:
 
 ### Sesudah Penambahan Data
 
-add
+
    ![padd](piton/dokumentasoy/pitonadd.png)
 
-final
    ![pfinal](piton/dokumentasoy/pitonafter.png)
 
 ---
