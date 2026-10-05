@@ -331,9 +331,9 @@ Contoh mesin:
 ### Sesudah Penambahan Data
 
 
-   ![cppadd](piton/dokumentesyion/cadd.png)
+   ![cppadd](cpp/dokumentesyion/cadd.png)
 
-   ![cppfinal](piton/dokumentesyion/cafter.png)
+   ![cppfinal](cpp/dokumentesyion/cafter.png)
 
 ---
 
