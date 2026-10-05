@@ -72,10 +72,13 @@ Mesin inputMesin() {
 }
 
 void tambahData(RentalKendaraan &rental) {
-    cout << "\n******** TAMBAH KENDARAAN ********" << endl;
+    cout << "\n=============================================" << endl;
+    cout << "           TAMBAH KENDARAAN" << endl;
+    cout << "=============================================" << endl;
     cout << "1. Tank" << endl;
     cout << "2. APC" << endl;
     cout << "3. Helikopter" << endl;
+    cout << "=============================================" << endl;
     int jenis = inputInteger("Pilih jenis kendaraan: ");
     if (jenis < 1 || jenis > 3) {
         cout << "Jenis tidak valid!" << endl;
@@ -84,22 +87,18 @@ void tambahData(RentalKendaraan &rental) {
 
     int id = inputKodeKendaraan(rental);
 
-    string nama = inputString("Nama               : ");
-    int harga = inputInteger("Harga Sewa / hari  : ");
+    string nama = inputString("Nama                : ");
+    int harga = inputInteger("Harga Sewa / hari   : ");
     int st = 0;
     while (st != 1 && st != 2) st = inputInteger("Status Sewa (1=Tersedia, 2=Disewa): ");
     string status = (st == 1) ? "Tersedia" : "Disewa";
     Mesin mesin = inputMesin();
 
-    // Tampilkan data SEBELUM ditambahkan
-    cout << "\n######## DATA SEBELUM DITAMBAHKAN ########" << endl;
-    rental.tampilkanInfo();
-
     cout << "\n-- Data Spesifik --" << endl;
     if (jenis == 1) {
         int armor = inputInteger("Ketebalan Armor (mm): ");
-        string meriam = inputString("Jenis Meriam        : ");
-        int peluru = inputInteger("Kapasitas Peluru    : ");
+        string meriam = inputString("Jenis Meriam         : ");
+        int peluru = inputInteger("Kapasitas Peluru     : ");
         rental.tambahKendaraan(new Tank(id, nama, harga, mesin, status, armor, meriam, peluru));
     } else if (jenis == 2) {
         int personel = inputInteger("Kapasitas Personel : ");
@@ -112,23 +111,26 @@ void tambahData(RentalKendaraan &rental) {
         rental.tambahKendaraan(new Helikopter(id, nama, harga, mesin, status, fungsi, angkut, jarak));
     }
 
-    cout << "\nKendaraan berhasil ditambahkan!" << endl;
-
-    // Tampilkan data SESUDAH ditambahkan
-    cout << "\n######## DATA SESUDAH DITAMBAHKAN ########" << endl;
-    rental.tampilkanInfo();
+    cout << "\n=============================================" << endl;
+    cout << "      KENDARAAN BERHASIL DITAMBAHKAN" << endl;
+    cout << "=============================================" << endl;
+    cout << "Kode Kendaraan : " << id << endl;
+    cout << "Nama           : " << nama << endl;
+    cout << "Jenis          : " << (jenis == 1 ? "Tank" : (jenis == 2 ? "APC" : "Helikopter")) << endl;
+    cout << "Status         : " << status << endl;
+    cout << "=============================================" << endl;
 }
 
 // ---------- Menu ----------
 void menu(RentalKendaraan &rental) {
     while (true) {
-        cout << "\n**************************************" << endl;
-        cout << "  " << rental.getNama() << endl;
-        cout << "**************************************" << endl;
+        cout << "\n=============================================" << endl;
+        cout << "           " << rental.getNama() << endl;
+        cout << "=============================================" << endl;
         cout << "1. Tambah Kendaraan" << endl;
         cout << "2. Tampilkan Semua Data" << endl;
         cout << "3. Keluar" << endl;
-        cout << "**************************************" << endl;
+        cout << "=============================================" << endl;
         cout << "Pilih menu: ";
         string pilihan;
         getline(cin, pilihan);
@@ -136,7 +138,9 @@ void menu(RentalKendaraan &rental) {
         if (pilihan == "1") {
             tambahData(rental);
         } else if (pilihan == "2") {
-            cout << "\n######## SEMUA DATA ########" << endl;
+            cout << "\n==================================================" << endl;
+            cout << "              DATA KENDARAAN" << endl;
+            cout << "==================================================" << endl;
             rental.tampilkanInfo();
         } else if (pilihan == "3") {
             cout << "Sampai jumpa!" << endl;
