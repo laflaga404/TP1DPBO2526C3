@@ -1,13 +1,5 @@
 # TP1DPBO2526C3
 
-# Sistem Rental Kendaraan Militer
-
-Program ini merupakan implementasi **Object-Oriented Programming (OOP)** dengan tema **Sistem Rental Kendaraan Militer**. Program dibuat untuk mengelola data kendaraan militer yang tersedia pada suatu rental, dengan menerapkan konsep **Composition**, **Array of Object**, dan **Hierarchical Inheritance**.
-
-Program diimplementasikan menggunakan **Python** dan **C++**. Implementasi Java dapat ditambahkan sebagai bonus.
-
----
-
 ## Janji
 
 Saya Nabil Azka Saputra dengan NIM 2507096 mengerjakan TP2 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
