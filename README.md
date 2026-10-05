@@ -326,20 +326,14 @@ Contoh mesin:
 ## C++
 
 ### Sebelum Penambahan Data
-
-> Tambahkan screenshot hasil program C++ di sini.
-
-```text
-[ Screenshot C++ - Data Awal ]
-```
+ ![cppbefore](cpp/dokumentesyion/cbefore.png)
 
 ### Sesudah Penambahan Data
 
-> Tambahkan screenshot hasil program C++ setelah data kendaraan ditambahkan.
 
-```text
-[ Screenshot C++ - Data Setelah Penambahan ]
-```
+   ![cppadd](piton/dokumentesyion/cadd.png)
+
+   ![cppfinal](piton/dokumentesyion/cafter.png)
 
 ---
 
