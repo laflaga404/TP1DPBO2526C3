@@ -8,7 +8,7 @@ Saya Nabil Azka Saputra dengan NIM 2507096 mengerjakan TP2 dalam mata kuliah DPB
 
 ## Desain Diagram Program
 
-![Diagram](diagram-rental-kendaraan-militer.png)
+![Diagram](cpp/dokumentesyion/Diagram.jpg) 
 
 ### Keterangan Relasi
 
