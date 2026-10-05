@@ -8,7 +8,7 @@ Saya Nabil Azka Saputra dengan NIM 2507096 mengerjakan TP2 dalam mata kuliah DPB
 
 ## Desain Diagram Program
 
-![Diagram](cpp/dokumentesyion/Diagram.jpg) 
+![Diagram](cpp/dokumentesyion/askagunshopp.jpg) 
 
 ### Keterangan Relasi
 
